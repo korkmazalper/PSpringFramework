@@ -12,9 +12,10 @@ import javax.inject.Named;
 @Getter
 public class JsfBean {
     private String patika;
-
+    private String secondOne;
     public JsfBean() {
         this.patika="Spring Boot Egitimi";
+        secondOne="Noname JSF Files";
     }
 
 }
