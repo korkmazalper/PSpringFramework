@@ -1,17 +1,20 @@
 package com.alpkor.iocli_dili;
 
 import javax.enterprise.context.ApplicationScoped;
+import javax.inject.Inject;
 import javax.inject.Named;
 
 @Named(value="ioclicdiliCalisan")
 @ApplicationScoped
 public class Calisan {
-    private Patron patron;
+
+    @Inject //inject edince new gerekmez
+    private IPatron iPatron;
 
     public Calisan() {
-        patron = new Patron();
+        //iPatron = new Patron(); //inject edince new gerekmez
     }
     public String getData(String data){
-        return patron.surum(data);
+        return iPatron.surum(data);
     }
 }
