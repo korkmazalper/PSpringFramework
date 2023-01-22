@@ -4,4 +4,13 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
                            http://xmlns.jcp.org/xml/ns/javaee/beans_1_1.xsd">
+    <!-- alternative-->
+    <alternatives>
+        <class>com.alpkor.alternative.Patron2</class>
+        <!-- <class>com.alpkor.alternative.Patron2</class> -->
+    </alternatives>
+    <!-- interceptor-->
+    <interceptors>
+        <class>com.alpkor.aop.interceptor.InterceptorYolKesiciAsilIs</class>
+    </interceptors>
 </beans>
