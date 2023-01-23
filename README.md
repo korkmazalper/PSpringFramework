@@ -14,7 +14,9 @@ Bir servis class'ının içine de aşağıdaki metotları yazınız:
 - Yazlıkların ortalama metrekaresini dönen metot
 - Tüm tipteki evlerin ortalama metrekaresini dönen metot
 - Oda ve salon sayısına göre tüm tipteki evleri filtreleyip dönen metot
+
 Not:
+
 - İsimlendirmelerin İngilizce olmasına dikkat ediniz.
 - Nesneye yönelik programlamaya uygun tasarım yapınız.
 - Clean code prensiplerine uyunuz.
